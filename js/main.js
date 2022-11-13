@@ -1,11 +1,11 @@
 //Swiper slider
 const swiper = new Swiper(".bg-slider-thumbs", {
-    loop: false,
+    loop: true,
     spaceBetween: 0,
     slidesPerView: 0,
 });
 const swiper2 = new Swiper(".bg-slider", {
-    loop: false,
+    loop: true,
     spaceBetween: 0,
     thumbs: {
         swiper: swiper,

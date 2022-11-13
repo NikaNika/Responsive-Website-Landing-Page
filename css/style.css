@@ -210,15 +210,17 @@ header .nav-bar{
 .swiper-slide .text-content .read-btn{
   border: none;
   outline: none;
-  background: var(--white-color);
-  color: var(--dark-color);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  text-shadow: var(--text-shadow);
+  color: var(--white-color);
   font-size: 1em;
   font-weight: 500;
   padding: 8px 25px;
   display: flex;
   align-items: center;
   margin-top: 40px;
-  border-radius: 10px;
+  border-radius:  10px;
   cursor: pointer;
   transform: translateX(50px);
   opacity: 0;
@@ -238,7 +240,7 @@ header .nav-bar{
 }
 
 .swiper-slide .text-content .read-btn:hover i{
-  transform: translateX(5px);
+  transform: translateX(-10px);
 }
 
 .dark-layer:before{
